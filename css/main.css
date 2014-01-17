@@ -1,0 +1,218 @@
+/***************************************!
+* General
+*************************************/
+.floatLeft{
+   float: left;
+}
+
+/***************************************!
+* Text Styling
+***************************************/
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+}
+
+.center{
+    text-align: center;
+}
+
+.right{
+    text-align:right;
+}
+
+.removeBullets
+{
+    list-style-type: none;
+}
+
+.textDecoration{
+    display: block;
+    color: #999999;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.textDecorationLinks{
+    display: block;
+    color: #999999;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.textDecorationLinksInner{
+    display: block;
+    color: #999999;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.textDecorationLinks:hover{
+    color: #CDB5CD;
+}
+
+.textDecorationLinksInner:hover{
+    color: #a51ea5;
+}
+
+.white{
+    color: white;
+}
+
+/***************************************!
+* Text Sizes
+***************************************/
+.size10{
+    font-size: 10px;
+}
+
+.size12{
+    font-size: 12px;
+}
+
+.size34{
+    font-size: 34px;
+}
+
+/***************************************!
+* Padding
+***************************************/
+.paddingRL15{
+    padding: 0px 15px;
+}
+
+.paddingRL50{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.paddingTB15{
+    padding: 15px 0px;
+}
+
+.paddingTB50{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.paddingL5{
+    padding-left: 5px;
+}
+
+.paddingL100{
+    padding-left: 100px;
+}
+
+/***************************************!
+* Margins
+***************************************/
+.marginT330{
+    position: relative;
+    margin-top: 315px;
+}
+
+/***************************************!
+* Image Styling
+***************************************/
+IMG.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+IMG.roundedCorners{
+    border-radius: 10px;
+}
+
+IMG.horizontal{
+     height: 300px;
+     width: 400px;
+}
+
+IMG.vertical{
+    height: 400px;
+    width: 300px;
+}
+
+IMG.verticalSquare{
+    height: 400px;
+    width: 300px;
+}
+
+IMG.square{
+    height: 350px;
+    width: 350px;
+}
+
+/***************************************!
+* Main Page Setup
+***************************************/
+.borderLines{
+    height:500px;
+    position:relative;
+    border-style:solid;
+    border-width: 1px;
+    margin:15px;
+}
+
+.insideLine{
+    height:470px;
+    width:225px;
+    position: relative;
+    border-right:solid 1px;
+    padding-right: 5px;
+}
+
+.leftHandNav{
+    float: left;
+    width: 20%
+}
+
+.main{
+    float: left;
+    width: 80%;
+}
+
+.clear{
+    clear: both;
+}
+
+/***************************************!
+* Styling for LHN
+***************************************/
+.grid figure {
+    margin: 0;
+    position: relative;
+}
+
+.grid figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #CDB5CD;
+    color: white;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style-type: none;
+    border-radius: 10px;
+    font-size:12px !important;
+    margin-left:200px;
+    width:150px !important;
+    padding-left: 5px;
+}
+
+.cs-style-1 figcaption {
+    opacity: 0;
+    text-align: left;
+}
+
+.no-touch .cs-style-1 figure:hover figcaption,
+.cs-style-1 figure.cs-hover figcaption {
+    opacity: 1;
+    transform: translate(15px, 15px);
+}
+
+
+
+

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html ng-app="appBeckyJane">
+
+    <head>
+        <title>Jane Art</title>
+
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+
+    <body ng-controller="MainArtController" class="with-bg">
+
+        <!--Setting up the page divisions-->
+        <div ng-include src="'header.html'"></div>
+        <div class="borderLines">
+            <div class="leftHandNav">
+                <div ng-include src="'leftHandNavigation.html'"></div>
+            </div>
+
+            <div class="main">
+                <div ng-view></div>
+            </div>
+
+            <div class="clear"></div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script>
+        <script src="js/vendor/angular-route.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/directives.js"></script>
+    </body>
+
+</html>
